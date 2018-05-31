@@ -1,0 +1,86 @@
+.grid-4col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:2vh;
+  border: 1px black solid;
+}
+
+.headerbody {
+background-color: yellow;
+padding: 1em;
+grid-column-start: 1;
+grid-column-end: span 4;
+}
+
+.leftsidebar {
+	background-color: white;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+
+.rightsidebar {
+	background-color: white;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+
+.samplegrid-a {
+ background-color: white;
+ padding : 1em;
+ grid-column-start: span 30;
+ grid-column-end: span 1;
+}	
+
+  .samplegrid-b {
+ background-color: black;
+ padding : 1em;
+ grid-column-start: span 1;
+ grid-column-end: span 1;
+}	
+
+ .samplegrid-c {
+ background-color: white;
+ padding : 1em;
+ grid-column-start: span 50;
+ grid-column-end: span 30;
+}	
+
+.samplegrid-d {
+ background-color: black;
+ padding : 1em;
+ grid-column-start: span 1;
+ grid-column-end: span 1;
+}	
+.indexbody {
+    background-image: url("images/large.jpg");
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #black;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+li a:hover {
+	
+    background-color: #yellow;
+}
